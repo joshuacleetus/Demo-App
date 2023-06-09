@@ -11,7 +11,9 @@ with the highest possible quality so that we understand what you will bring to o
 you should try to demonstrate your knowledge of large-scale production quality app-building, including robust architecture and infrastructure and
 correct usage of best-practice design patterns.
 Finally, adherence to the requirements demonstrates your attention to detail. Read carefully.
+
 App Requirements
+
 Your app should be written entirely in either Swift for iOS, or Kotlin for Android. Try to demonstrate your knowledge of both basic and advanced
 language semantics. We are not yet using SwiftUI or Compose on our mobile projects, so please complete the exercise using UIKit for iOS or
 XML layouts for Android.
@@ -27,15 +29,21 @@ of the detail.
 a placeholder image of your choice.
 · Two variants of the app should be created, using a single shared codebase. Each variant should have a different name, package-name, and
 url that it pulls data from. (We're interested in your methodology for creating multiple apps from a shared codebase)
+
 Variant One
+
 Name: Simpsons Character Viewer
 Data API: http://api.duckduckgo.com/?q=simpsons+characters&format=json
 Package/Bundle name: com.sample.simpsonsviewer
+
 Version Two
+
 Name: The Wire Character Viewer
 Data API: http://api.duckduckgo.com/?q=the+wire+characters&format=json
 Package/Bundle name: com.sample.wireviewer
+
 Miscellaneous
+
 Using Libraries To Complete The Task
 Use open-source libraries as you see fit, but we must be able to build and run your project in the IDE. Before sending, consider building and
 running your project from a clean environment.
